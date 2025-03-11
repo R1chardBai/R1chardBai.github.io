@@ -1,0 +1,29 @@
+.split-container {
+    display: flex;
+    gap: 2rem;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.text-content {
+    flex: 1;
+    min-width: 60%;
+}
+
+.image-content {
+    flex: 1;
+    min-width: 40%;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.split-container:hover {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
