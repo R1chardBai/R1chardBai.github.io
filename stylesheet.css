@@ -1,17 +1,40 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
 
+/* Header styling */
+#main-header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #2c3e50;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+/* Content sections */
+.content-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Split layout section */
 .split-container {
     display: flex;
-    gap: 2rem;
-    padding: 1.5rem;
+    gap: 3rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
     margin: 2rem 0;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    transition: box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .text-content {
     flex: 1;
-    min-width: 60%;
+    min-width: 50%;
 }
 
 .image-content {
@@ -19,12 +42,30 @@
     min-width: 40%;
 }
 
-.responsive-img {
-    width: 200px;
+/* Image styling */
+.headshot-img {
+    width: 100%;
     height: auto;
-    border-radius: 4px;
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
 }
 
-.split-container:hover {
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+/* Link styling */
+a {
+    color: #2a4a5f;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #fc3620;
+    text-decoration: underline;
+}
+
+/* Project cards */
+.project-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
 }
